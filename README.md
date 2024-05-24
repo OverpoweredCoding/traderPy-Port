@@ -7,6 +7,8 @@ Port of my original traderJS module from 2 years ago to Python. Python is a more
 4) Run the file calling the refresh access token function in order to obtain an access token. This is how you will authenticate sending orders and performing core account actions.
 5) Place orders and call the refres access token function in a loop in order to ensure that it never expires
 6) Get rich? I don't know - up to you.
+# Variable Information
+If you do not understand any variable names defined in the trader.py file, please refer to Tradovate's official documentation. I have kept all of the variable names the same as the ones which they use on their website. https://api.tradovate.com/#section/Getting-Started-With-the-Tradovate-API
 # Code
 ```python
 import datetime
